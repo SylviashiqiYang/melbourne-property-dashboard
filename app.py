@@ -41,7 +41,7 @@ suburb_lga_df = pd.read_csv(
 
 
 with open(
-    "data/processed/victoria_suburbs.geojson",
+    "data/processed/victoria_suburbs_simplified.geojson",
     "r"
 ) as f:
     suburbs_geojson = json.load(f)
